@@ -6,22 +6,23 @@ function createInstructor(firstName, lastName){
     }
 }
 
-// Computed Property Names
-var favoriteNumber = 42;
+// Computed Property Names ES2015
+let favoriteNumber = 42
 
-var instructor = {
-  firstName: "Colt"
+const instructor = {
+  firstName: "Colt",
+  [favoriteNumber]: "That is my favorite!"
 }
 
-instructor[favoriteNumber] = "That is my favorite!"
+
 
 // Object Methods
-var instructor = {
-    firstName: "Colt",
-    sayHi: function(){
-      return "Hi!";
-    },
-    sayBye: function(){
-      return this.firstName + " says bye!";
-    }
-  }
+// var instructor = {
+//     firstName: "Colt",
+//     sayHi: function(){
+//       return "Hi!";
+//     },
+//     sayBye: function(){
+//       return this.firstName + " says bye!";
+//     }
+//   }
