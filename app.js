@@ -1,8 +1,8 @@
-// Same keys and values
+// Same keys and values ES2015
 function createInstructor(firstName, lastName){
     return {
-      firstName: firstName,
-      lastName: lastName
+      firstName,
+      lastName
     }
 }
 
